@@ -1,6 +1,6 @@
-# Скрипты Windows должны всегда иметь CRLF
-*.bat text eol=crlf
-*.cmd text eol=crlf
+# Скрипты Windows храним байт-в-байт с CRLF (иначе cmd.exe ломает разбор)
+*.bat -text
+*.cmd -text
 
 # Исходники и документация — LF
 *.java text eol=lf
