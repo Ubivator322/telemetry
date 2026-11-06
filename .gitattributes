@@ -1,0 +1,19 @@
+# Скрипты Windows должны всегда иметь CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Исходники и документация — LF
+*.java text eol=lf
+*.md text eol=lf
+
+# Бинарники не трогаем
+*.jar binary
+*.class binary
+*.dll binary
+*.exe binary
+*.lib binary
+*.zip binary
+*.db binary
+
+# Рантайм Java — как есть
+portable/runtime/** -text

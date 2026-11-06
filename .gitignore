@@ -1,0 +1,19 @@
+# Генерируемые данные (создаются автоматически при запуске)
+telemetry.json
+telemetry.db
+telemetry.db-shm
+telemetry.db-wal
+
+# Артефакты сборки run.bat
+out/
+
+# IntelliJ
+.idea/workspace.xml
+.idea/shelf/
+
+# Временные логи
+*.log
+gui-out.txt
+gui-err.txt
+bat-out.txt
+bat-err.txt
